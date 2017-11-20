@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Comenzando con la Fotografia</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<style>
+		#imgSec {
+			height: 100%;
+		}
+		#imgSec #imgSecIzq {
+			transition: all ease 1s;
+			height: 300px;
+		}
+		#imgSec #imgSecIzq:hover {
+			transform: rotate(10deg);
+			border: 2px solid #000;
+			box-shadow: 0 0 10px 5px #82c3a6;
+		}
+		#imgSec #imgSecDer {
+			transition: all ease 1s;
+			height: 300px;
+		}
+		#imgSec #imgSecDer:hover {
+			transform: translate(5px,-20px);
+			border: 2px solid #000;
+			box-shadow: 0 0 10px 5px #82c3a6;
+		}
+		footer {
+			border-radius: 0 0 10px 10px;
+			height: 100%;
+		}
+		@media (max-width: 900px) {
+			#imgSec #imgSecIzq {
+				width: 90%;
+				margin: 0 auto;
+			}
+			#imgSec #imgSecDer {
+				width: 90%;
+				margin: 40px auto 0 auto;
+			}
+			.social1,.social2,.social3,.social4 {
+				width: 100%;
+				margin: 10px auto;
+			}
+			nav {
+				float: left;
+			}
+}
+
+	</style>
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Comenzando con la fotografía</h1>
+			<nav>
+		        <ul>
+		          <li class="active"><a href="index.html">Inicio</a></li>
+		          <li><a href="paisajes.html">Paisajes</a></li>
+		          <li><a href="retratos.html">Retratos</a></li>		        
+		        </ul>
+      		</nav>
+		</header>
+
+		<section id="imgCentral">
+			<div id="imagen">
+				<img src="img/img1.jpg" height="100%" width="100%" alt="">
+			</div>
+			
+		</section>
+
+		<div id="imgSec">
+			<section id="imgSecIzq">
+				<img src="img/img2.jpg" height="100%" width="100%" alt=""><h3>Paisajes</h3>
+			</section>
+			<section id="imgSecDer">
+				<img src="img/img3.jpg" height="100%" width="100%" alt=""><h3>Retratos</h3>
+			</section>
+		</div>
+
+		<footer class="extras">
+      			<div class="social1">
+
+	        		<h2>Contacto</h2>
+	        		
+	        		<p><a href="#">jairo_cz01@hotmail.com</a>
+	        		<p>El Álamo - Comas</p>
+	        		<p>964911729</p>	        			    
+      			</div>
+			     
+			    <div class="social2">
+			        <h2>Términos</h2>
+			        <p>El uso es estrictamente educativo</p>
+			    </div>			     
+			    <div class="social3">
+			        <h2>Redes Sociales</h2>
+			        <p><a href="#">Facebook</a></p>
+			        <p><a href="#">Twiter</a></p>
+			        <p><a href="#">Instagram</a></p>
+			    </div>
+			     
+			    <div class="social4">
+			        <h2>Derechos</h2>
+			        <p>Johnjahiro Jordan Chalco Zacarías </p>
+			        <p>copyright © 2017</p>	        		
+			    </div>			
+		</footer>				
+</body>
+</html>

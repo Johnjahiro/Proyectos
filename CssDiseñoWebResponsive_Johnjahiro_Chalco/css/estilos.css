@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Dancing Script', cursive;
+}
+
+#contenedor {
+	margin: 0 auto;
+   	width: 65.1%;    	
+	/*display: flex;
+	flex-flow: row wrap;*/
+	/*border: 1px solid #000;*/
+}
+
+header {
+	/*border: 1px solid red;*/
+	width: 100%;
+	line-height: 70px;
+	background-color: #5b7989;
+	overflow: hidden;
+}
+
+header h1 {
+	color: #fff;
+	padding: 0;
+	margin: 0;	
+	display: block;
+	float: left;
+	margin-left: 20px;
+	width: 350px;	
+	/*border: 1px solid yellow;*/
+filter: drop-shadow(0px 0px 5px #02010a);
+}
+
+#imgCentral {		
+	background-color: #82c3a6;
+	overflow: hidden;
+}
+
+#imgCentral #imagen {
+	width: 91%;	
+	margin: 20px auto;
+	height: 300px;
+	padding: 20px auto;
+	/*border: 1px solid brown;	*/
+}
+
+#imgSec {
+	display: flex;
+	flex-flow: row wrap;
+	height: 300px;
+	/*border: 1px solid skyblue;	*/
+	background-color: #d5c75f;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+#imgSec #imgSecIzq {
+	border: 1px solid #000;
+	width: 45%;
+	margin: 0 4% 0 3%;
+}
+
+#imgSec #imgSecDer {
+	border: 1px solid 000;
+	width: 45%;
+	height: 300px;
+}
+
+#imgSecIzq > h3 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#imgSecDer > h3 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-decoration: underline;
+}
+
+footer {
+	bottom: 0;
+	width: 100%;	
+	background-color: #C6d5c5;
+	/*border: 1px solid orange;*/
+	display: flex;
+	flex-flow: row wrap;
+	border-radius: 0 0 10px 10px;
+
+}
+
+/*div[class^='social'] {	
+  	min-width: 100px;
+	border: 1px solid orange;
+	box-sizing: border-box;
+	padding-left: 30px;
+	display: block;
+}*/
+
+.extras div {
+	
+	/*border: 1px solid orange;*/
+	box-sizing: border-box;
+	padding-left: 30px;
+}
+
+.social1,.social2,.social3,.social4 {
+	width: 25%;
+}	
+
+/* Nav Principal*/
+
+nav {		
+		font-size: 1.143em;
+		/*border: 1px solid red;*/
+		display: block;
+		/*margin: 0 auto 2em auto;*/
+		padding: 0;
+		height: 100%;
+		text-align: center;
+		width: 350px;
+		float: right;
+	}
+
+nav ul {list-style: none; margin: 0 auto;}
+nav li {float: left; display: inline; margin: 0;}
+
+nav a:link, nav a:visited {
+		display: inline-block;
+		height: 100%;
+		padding: 5px 1.5em;
+		text-decoration: none;
+		color: #fff;
+	}
+nav a:hover, nav a:active {
+		background: hsla(200,60%,50%,0.65);
+		text-shadow: none !important;
+	}
+
+nav .active a:link, nav .active a:visited {
+		text-shadow: none !important;
+		background: #3399CC;
+		color: #fff;
+	}
+
+
+
